@@ -1,0 +1,11 @@
+.inputOption{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+
+.inputOption h3{
+    font-weight: 400;
+    margin-left: 5px;
+    color:gray
+}

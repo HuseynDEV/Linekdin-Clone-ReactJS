@@ -1,0 +1,62 @@
+.feed{
+    flex:.5;
+    margin: 0 20px;
+}
+
+
+.feed_container{
+    padding: 10px;
+    background: white;
+}
+
+.feed_input{
+    border:1px solid lightgray;
+    border-radius: 30px;
+    display: flex;
+    color:gray;
+    padding-left: 15px;
+    padding: 10px;
+}
+
+.feed_input form{
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.feed_input form input{
+    flex: 1;
+    border:none;
+    margin-left: 10px;
+    outline: none;
+    font-size: 18px;
+}
+
+
+
+
+.feed_options{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+
+.post_cont{
+    display: flex;
+    flex-direction: column-reverse;
+
+}
+
+@media (max-width:950px){
+    .feed{
+        flex: .7;
+    }
+}
+
+@media (max-width:780px){
+    .feed{
+        flex: 1;
+    }
+}

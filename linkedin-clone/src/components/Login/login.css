@@ -1,0 +1,40 @@
+.login {
+    display: grid;
+    place-items: center;
+padding-top: 100px;
+    margin: 0 auto;
+
+}
+
+.login img {
+    width: 300px;
+    margin: 20px 0;
+}
+
+.login form{
+    display: flex;
+    flex-direction: column;
+gap:1rem
+}
+
+.login form input{
+    width: 350px;
+    height: 45px;
+    font-size: 20px;
+    padding-left: 5px;
+    border-radius: 5px;
+}
+
+
+.login form button{
+    width: 360px;
+    height: 45px;
+    background: #1976D2;
+    border: 1px solid #1976D2;
+    color:white;
+    border-radius: 5px;
+}
+
+.register{
+    color:#1976D2
+}

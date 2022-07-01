@@ -1,0 +1,41 @@
+.widget{
+    flex:.3;
+    line-height: 0;
+    top:80px;
+    position: sticky;
+
+}
+
+.widget_header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.widget_header h2{
+    font-size: 22px;
+    font-weight: 400;
+}
+
+.widget_article{
+    display: flex;
+    align-items: center;
+    gap:.4rem
+}
+
+.widget_article h4{
+    font-size: 20px;
+}
+.widget .bottom{
+    margin-top: 10px;
+    border-radius: 5px;
+    position: sticky;
+    top:80px
+}
+
+@media (max-width:950px){
+    .widget{
+        display: none;
+    }
+}
